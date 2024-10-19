@@ -1,0 +1,182 @@
+.navbar1 {
+    width: 100%;
+    background-color: #FFFFFF;
+    /* border-bottom: 1px solid #ddd; */
+    padding: 13px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000; 
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.navbar3 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.navbar4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.navbar4 img {
+    height: 1.75em;
+}
+
+.navbar4 h6 {
+    margin-left: .5em;
+    margin-right: 0;
+    text-transform: unset;
+    white-space: break-spaces;
+    color: #07142e;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1rem;
+    margin: 0;
+}
+
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-links a {
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: .875em;
+    font-weight: 600;
+    color: #6f7f92;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+.navbar5 {
+    background-color: transparent;
+    border: none;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: .875em;
+    font-weight: 600;
+    color: #6f7f92;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar5:hover {
+    color: #2f65b9;
+}
+
+
+.navbar6 {
+    display: flex;
+    align-items: center;
+}
+
+
+.dropdown-container {
+    display: flex;
+    padding: .625em 0;
+    background-color: white;
+    border: .063em solid #f1f1f1;
+    box-shadow: 0 14px 54px rgba(0, 0, 0, 0.03);
+    min-width: 40em;
+    max-height: 35em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: .313em;
+}
+
+.dropdown-column {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.dropdown-column h6 {
+    font-family: "Plus Jakarta Sans", serif;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #07142e;
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .0625em;
+}
+
+.dropdown-item {
+    font-size: .875em;
+    line-height:1.7em;
+    color: #6f7f92 !important;
+    font-weight: 600;
+    display: block;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    color: #007bff;
+}
+
+/* To hide the dropdown initially and show it on hover */
+.navbar6:hover .dropdown-container {
+    display: flex;
+}
+
+
+.navbar-links a:hover {
+    color: #2f65b9;
+}
+
+/* Styling for the icons */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    cursor: pointer;
+}
+
+.navbar-icons svg {
+    color: #6f7f92;
+}
+
+.profile-pic {
+    width: 3.125em;
+    min-width: 3.125em;
+    height: 3.125em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar2 {
+        flex-direction: column;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .navbar-icons {
+        margin-top: 10px;
+    }
+}

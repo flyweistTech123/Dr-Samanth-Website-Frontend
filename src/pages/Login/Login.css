@@ -1,0 +1,231 @@
+.login {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+.login1 {
+    width: 50%;
+    background-color: #173c6e;
+}
+
+
+.login2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0em 1em 0em 1em;
+}
+
+
+.login3 {
+    padding: 2em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.login4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login4 img {
+    height: 1.75em;
+}
+
+.login4 h6 {
+    margin-left: .3em;
+    margin-right: 0;
+    text-transform: unset;
+    white-space: break-spaces;
+    color: #07142e;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1rem;
+    margin: 0;
+}
+
+
+.login5 {
+    padding: 0 4em;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.login5 p {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #6f7f92;
+    line-height: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.login6 {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login7 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login7 label {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #07142e;
+    line-height: 1.5rem;
+    margin: 0;
+    margin-bottom: .875em;
+    text-align: left;
+}
+
+
+.login8 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    min-height: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: .313em;
+    padding: 0 1em;
+    height: 50px;
+}
+
+
+.login8 input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #6f7f92;
+    line-height: 1rem;
+    margin: 0;
+}
+
+
+.login9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login10 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.login10 label {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.login10 input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.3em;
+    margin-right: .625em;
+    line-height: 2;
+    box-sizing:border-box;
+}
+
+.login10 p {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #2f65b9;
+    line-height: 1.5rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+.login11 {}
+
+.login11 button {
+    width: 100% !important;
+    height: auto;
+    background-color: #2f65b9;
+    outline: none;
+    border: none;
+    border-radius: .313em;
+    padding: .813em 2em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    line-height: 1.5rem;
+    margin: 0;
+    cursor: pointer;
+    overflow:hidden;
+    transition: all .45s ease-in-out;
+
+}
+
+
+.login12 {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login12 h5 {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.login12 span {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #2f65b9;
+    line-height: 1.5rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #173c6e;
+    }
+    .login1{
+        display: none;
+    }
+
+}

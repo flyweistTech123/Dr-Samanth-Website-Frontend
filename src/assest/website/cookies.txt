@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+wordpress.iqonic.design	TRUE	/product/wp/socialv/	FALSE	1999999999	lp_session_guest	g-6713888821ea8
+wordpress.iqonic.design	TRUE	/product/wp/socialv/	FALSE	1999999999	pmpro_visit	1
+wordpress.iqonic.design	TRUE	/	FALSE	1999999999	product_view[is_grid]	2
+wordpress.iqonic.design	TRUE	/	FALSE	1999999999	product_view[col_no]	3
+
