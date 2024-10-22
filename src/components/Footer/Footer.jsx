@@ -1,8 +1,9 @@
 import React from 'react';
 import './Footer.css';
 
-import  img from '../../assest/app-store.png'
-import  img1 from '../../assest/playstore.png'
+import img from '../../assest/app-store.png'
+import img1 from '../../assest/playstore.png'
+import img2 from '../../assest/logo-mini.svg'
 
 const Footer = () => {
     return (
@@ -10,7 +11,10 @@ const Footer = () => {
             <div className="footer-container">
                 {/* Logo and App Links */}
                 <div className="footer-section">
-                    <h3 className="footer-logo">SocialV</h3>
+                    <div className="footer-section1">
+                        <img src={img2} alt="Logo" />
+                        <h6>SocialV</h6>
+                    </div>
                     <p>Download app from</p>
                     <div className="footer-app-links">
                         <a href="#!">
@@ -63,6 +67,9 @@ const Footer = () => {
                         <li><a href="#!">Dribbble</a></li>
                     </ul>
                 </div>
+            </div>
+            <div className='footer-section-bottom'>
+                <p>© 2024 SocialV. All Rights Reserved.</p>
             </div>
         </footer>
     );

@@ -21,8 +21,8 @@ const Home = () => {
         <FourthComponent />
         <FivthComponent />
         <ArticleHome />
-        <SubscribeNewsletter/>
       </div>
+      <SubscribeNewsletter/>
       <Footer/>
     </>
   )

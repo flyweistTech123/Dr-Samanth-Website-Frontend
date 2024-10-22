@@ -7,9 +7,13 @@ import profilePic from '../../assest/profile pic.jpg'; // Path to the profile pi
 import './Navbar.css';
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
+
 
 
 const MyNavbar = () => {
+  const navigate = useNavigate()
+
   return (
     <>
       <div className="navbar1">
@@ -70,7 +74,7 @@ const MyNavbar = () => {
                   position="right"
                   openOnHover={true}
                 >
-                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>About Us</Dropdown.Item>
+                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} onClick={()=>navigate('/aboutus')}>About Us</Dropdown.Item>
                   <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>Contact Us</Dropdown.Item>
                   <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>frequently asked questions</Dropdown.Item>
                   <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>Terms & Condition</Dropdown.Item>
@@ -193,7 +197,7 @@ const MyNavbar = () => {
                           fontWeight: "600"
                         }}
                       >
-                       Standard
+                        Standard
                       </Dropdown.Item>
                       <Dropdown.Item
                         style={{
@@ -220,7 +224,7 @@ const MyNavbar = () => {
                           fontWeight: "600"
                         }}
                       >
-                       Gallery
+                        Gallery
                       </Dropdown.Item>
                       <Dropdown.Item
                         style={{
@@ -229,7 +233,7 @@ const MyNavbar = () => {
                           fontWeight: "600"
                         }}
                       >
-                       Quote
+                        Quote
                       </Dropdown.Item>
                       <Dropdown.Item
                         style={{
@@ -238,7 +242,7 @@ const MyNavbar = () => {
                           fontWeight: "600"
                         }}
                       >
-                       Link
+                        Link
                       </Dropdown.Item>
                     </Dropdown.Submenu>
                   </Dropdown.Item>

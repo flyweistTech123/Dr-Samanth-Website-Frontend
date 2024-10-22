@@ -1,0 +1,54 @@
+.pageLayout1 {
+    background-image: url('../../assest/banner.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% !important;
+    background-size: cover !important;
+    background: #2f65b9;
+    padding: 7.166em 1em;
+}
+
+
+.pageLayout2{
+    margin-bottom: .313em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.pageLayout2 h2{
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 2.074em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+
+.pageLayout3{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.pageLayout2 span:nth-child(1){
+    cursor: pointer;
+}
+
+.pageLayout2 span{
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: .875em;
+    line-height: 1.3;
+    letter-spacing: 0.0625em;
+    color: #FFFFFF;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: uppercase;
+}

@@ -1,5 +1,6 @@
 /** @format */
 
+import AboutUs from "../pages/About Us/AboutUs";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 
@@ -14,6 +15,11 @@ const allRoutes = [
     route: "/home",
     component: <Home />,
   },
+  {
+    route: "/aboutus",
+    component: <AboutUs />,
+  },
+ 
  
 ];
 
