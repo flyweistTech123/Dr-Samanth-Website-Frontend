@@ -4,6 +4,7 @@ import './ContactUs.css'
 import MyNavbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import ContactForm from './ContactForm'
+import ContactMap from './ContactMap'
 
 const ContactUs = () => {
     return (
@@ -14,6 +15,7 @@ const ContactUs = () => {
             </div>
             <div className='privacy-policy'>
                 <ContactForm />
+                <ContactMap/>
             </div>
             <Footer />
         </>

@@ -1,19 +1,18 @@
 .navbar1 {
     width: 100%;
     background-color: #FFFFFF;
-    /* border-bottom: 1px solid #ddd; */
     padding: 13px 0;
     position: fixed;
     top: 0;
-    z-index: 1000; 
+    z-index: 2; 
 }
 
 .navbar2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1300px;
-    margin: 0 auto;
+    /* max-width: 1300px;
+    margin: 0 auto; */
     padding: 0 20px;
 }
 
@@ -129,9 +128,20 @@
     cursor: pointer;
 }
 
-.dropdown-item:hover {
-    color: #007bff;
+.drop{
+    font-size: .875em;
+    color: #6f7f92;
+    font-weight: 600;
+    margin-top: 0.5rem;
 }
+
+.drop:hover{
+   color: #2f65b9 !important;
+   background-color: transparent;
+   transform: translateX(10px);
+   border-left: 1px solid #2f65b9;
+}
+
 
 /* To hide the dropdown initially and show it on hover */
 .navbar6:hover .dropdown-container {

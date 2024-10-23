@@ -1,0 +1,141 @@
+.faqs {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3.125em 1em 0em 1em;
+}
+
+
+
+.faqs1 {
+    padding: 0em 1em 0em 1em;
+}
+
+
+.faqs2 {
+    padding: 10px;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+
+.faqs2 h2 {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 2.074em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+
+.faqs2 p {
+    margin-top: 2em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.75;
+    letter-spacing: 0;
+    color: #6f7f92;
+    text-align: center;
+}
+
+
+
+.faqs3 {
+    padding: 0em 1em 0em 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 30px;
+}
+
+
+.faqs4 {
+    box-sizing: border-box;
+    padding: 2.5em;
+    background-color: #fff;
+    margin-bottom: 2em;
+    border-radius: .375em;
+    box-shadow: 0 14px 54px rgba(0, 0, 0, 0.03);
+}
+
+
+.faqs5 {
+    position: relative;
+    padding-bottom: 0;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+.faqs5 h6 {
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    color: #07142e;
+    transition: all .5s ease-in-out;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+    /* padding-bottom: 1.1em; */
+    /* color: #2f65b9; */
+}
+
+
+.faqs6 {
+    display: inline-block;
+    width: 1.875em;
+    min-width: 1.875em;
+    height: 1.875em;
+    text-align: center;
+    line-height: 1.875em;
+    color: #fff;
+    background: #2f65b9;
+    border-radius: .313em;
+    padding-top: 3px;
+}
+
+
+
+.faqs6 li::before{
+    vertical-align: middle;
+}
+
+
+
+.faqs7{
+    display: block;
+    text-align: left;
+}
+
+
+.faqs7 p{
+    margin: 0;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.66em;
+    letter-spacing: 0;
+    color: #6f7f92;
+}
+
+
+.faqs7 a{
+    text-decoration: none;
+    box-shadow: none;
+    color: #2f65b9;
+}

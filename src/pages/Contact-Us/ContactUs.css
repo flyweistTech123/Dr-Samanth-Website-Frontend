@@ -20,15 +20,16 @@
     margin-bottom: 0px;
     padding: 3.125em 3.125em 3.125em 3.125em;
     background-color: #FFFFFF;
+    border-radius: 12px;
 }
 
-.contact4{
+.contact4 {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
     margin-bottom: 2.5em;
 }
 
 
-.contact4 h2{
+.contact4 h2 {
     font-family: "Plus Jakarta Sans", serif;
     font-weight: 600;
     font-size: 2.074em;
@@ -42,23 +43,23 @@
 }
 
 
-.contact4 p{
+.contact4 p {
     margin-top: 1em;
     font-family: "Plus Jakarta Sans", serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1em;
     line-height: 1.75;
     letter-spacing: 0;
     color: #6f7f92;
 }
 
-.contact7{
+.contact7 {
     margin-bottom: 2.5em;
 }
 
 
 
-.contact7 input{
+.contact7 input {
     margin: 1em 0;
     width: 100%;
     padding: 0 1em;
@@ -76,12 +77,12 @@
     outline: none;
 }
 
-.contact7 input:focus{
+.contact7 input:focus {
     border-color: #07142e;
 }
 
 
-.contact7 textarea{
+.contact7 textarea {
     margin: 1em 0;
     width: 100%;
     padding: 0 1em;
@@ -97,4 +98,206 @@
     margin: 0;
     box-shadow: unset;
     outline: none;
+}
+
+
+
+.contact8 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+
+
+.contact9 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.contact9 input {
+    background: transparent;
+    border-color: #f1f1f1;
+    width: 1em;
+    height: 1em;
+    margin-right: .625em;
+    line-height: 2;
+}
+
+.contact9 p {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.75;
+    letter-spacing: 0;
+    color: #6f7f92;
+}
+
+
+.contact10 {
+    padding: .05em 1em 1.625em 1em;
+}
+
+
+.contact10 button {
+    width: auto;
+    height: auto;
+    background-color: #2f65b9;
+    padding: .813em 2em;
+    border: .063em solid transparent;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: .875em;
+    letter-spacing: .0625em;
+    line-height: 1.75;
+    margin: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all .45s ease-in-out;
+    border-radius: .313em;
+    outline: none;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+
+
+
+.contact11 {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 0em 1em 0em 1em;
+}
+
+
+.contact12 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3em 1.875em 3em 1.875em;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+
+.contact13 {
+    margin: 0 0 2.1875em;
+    padding: 0 0 2.1875em;
+    border-bottom: .063em solid #f1f1f1;
+    display: flex;
+    align-items: flex-start;
+    transition: all .45s ease 0s;
+}
+
+.contact13:hover{
+    transform: translateY(-10px);
+}
+
+
+.contact14 {
+    width: 3em;
+    height: 3em;
+    min-width: 3em;
+    line-height: 3em;
+    border-radius: .375em;
+}
+
+.contact14 img {
+    border-radius: .375em;
+}
+
+
+.contact15 {
+    margin: 0 1.5em;
+}
+
+.contact15 h5 {
+    margin: 0em 0em 1em 0em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+.contact15 p {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.66em;
+    letter-spacing: 0;
+    color: #6f7f92;
+    word-break: break-word;
+}
+
+.contact16 {
+    margin: 0em 0em 1.5em 0em;
+
+}
+
+.contact16 h5{
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+
+.contact17{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1em 0em -0.5625em 0em;
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
+}
+
+.contact18{
+    margin-bottom: 0px;
+    display: inline-block;
+    word-break: break-word;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.contact18 svg{
+    width: 2em;
+    height: 2em;
+}
+
+
+.contact18:hover{
+    transform: translateY(-5px);
+}
+
+
+
+
+.contactmap{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8.125em 6.25em 0em 6.25em;
 }

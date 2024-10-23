@@ -17,9 +17,9 @@ const ThirdComponent = () => {
                                 <img src={img} alt="" />
                             </div>
                             <div className='thome6'>
-                                <h3>Meet new people all over the world & make friends  </h3>
+                                <h3>Meet new people all over<br /> the world & make friends</h3>
                                 <div className='shome3'>
-                                    <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected.</p>
+                                    <p>It uses a dictionary of over 200 Latin words, combined<br /> with a handful of model sentence structures, to generate<br /> Lorem Ipsum which looks reasonable. The generated<br /> Lorem Ipsum is therefore always free from repetition,<br /> injected.</p>
                                 </div>
                                 <div className='shome4'>
                                     <h5>Features :</h5>
@@ -41,9 +41,9 @@ const ThirdComponent = () => {
                         </div>
                         <div className='thome4'>
                             <div className='thome6'>
-                                <h3>Find the right group that fits your interests</h3>
+                                <h3>Find the right group that<br /> fits your interests</h3>
                                 <div className='shome3'>
-                                    <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum</p>
+                                    <p>It uses a dictionary of over 200 Latin words, combined<br /> with a handful of model sentence structures, to generate<br /> Lorem Ipsum which looks reasonable. The generated<br /> Lorem Ipsum is therefore always free from repetition,<br /> injected.</p>
                                 </div>
                                 <div className='shome4'>
                                     <h5>Features :</h5>
@@ -74,7 +74,7 @@ const ThirdComponent = () => {
                             <div className='thome6'>
                                 <h3>Meet new people all over the world & make friends</h3>
                                 <div className='shome3'>
-                                    <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected.</p>
+                                    <p>It uses a dictionary of over 200 Latin words, combined<br /> with a handful of model sentence structures, to generate<br /> Lorem Ipsum which looks reasonable. The generated<br /> Lorem Ipsum is therefore always free from repetition,<br /> injected.</p>
                                 </div>
                                 <div className='shome4'>
                                     <h5>Features :</h5>
