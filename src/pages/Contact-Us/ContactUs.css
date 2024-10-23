@@ -1,0 +1,100 @@
+.contact1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0em 1em 0em 1em;
+}
+
+
+.contact2 {
+    padding: 0em 1em 0em 1em;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.contact3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3.125em 3.125em 3.125em 3.125em;
+    background-color: #FFFFFF;
+}
+
+.contact4{
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
+    margin-bottom: 2.5em;
+}
+
+
+.contact4 h2{
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 2.074em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+
+.contact4 p{
+    margin-top: 1em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.75;
+    letter-spacing: 0;
+    color: #6f7f92;
+}
+
+.contact7{
+    margin-bottom: 2.5em;
+}
+
+
+
+.contact7 input{
+    margin: 1em 0;
+    width: 100%;
+    padding: 0 1em;
+    line-height: 3.123em;
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #f8f9fa;
+    border: .0625em solid #f1f1f1;
+    font-family: "Plus Jakarta Sans", serif;
+    border-radius: .313em;
+    color: #6f7f92;
+    box-sizing: border-box;
+    margin: 0;
+    box-shadow: unset;
+    outline: none;
+}
+
+.contact7 input:focus{
+    border-color: #07142e;
+}
+
+
+.contact7 textarea{
+    margin: 1em 0;
+    width: 100%;
+    padding: 0 1em;
+    line-height: 3.123em;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Plus Jakarta Sans", serif;
+    background-color: #f8f9fa;
+    border: .0625em solid #f1f1f1;
+    border-radius: .313em;
+    color: #6f7f92;
+    box-sizing: border-box;
+    margin: 0;
+    box-shadow: unset;
+    outline: none;
+}
