@@ -74,12 +74,12 @@ const MyNavbar = () => {
                   position="right"
                   openOnHover={true}
                 >
-                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} onClick={()=>navigate('/aboutus')}>About Us</Dropdown.Item>
-                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>Contact Us</Dropdown.Item>
-                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>frequently asked questions</Dropdown.Item>
-                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>Terms & Condition</Dropdown.Item>
-                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>Privacy Policy</Dropdown.Item>
-                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }}>Coming Soon</Dropdown.Item>
+                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} onClick={() => navigate('/aboutus')}>About Us</Dropdown.Item>
+                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} onClick={() => navigate('/contactus')}>Contact Us</Dropdown.Item>
+                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} onClick={() => navigate('/FAQ')}>frequently asked questions</Dropdown.Item>
+                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} onClick={() => navigate('/termscondition')}>Terms & Condition</Dropdown.Item>
+                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} onClick={() => navigate('/privacypolicy')}>Privacy Policy</Dropdown.Item>
+                  <Dropdown.Item style={{ color: '#6f7f92', fontSize: '.875em', fontWeight: "600" }} >Coming Soon</Dropdown.Item>
                 </Dropdown>
                 <MdOutlineKeyboardArrowDown color='#6f7f92' />
               </div>

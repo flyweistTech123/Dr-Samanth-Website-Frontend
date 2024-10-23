@@ -1,0 +1,44 @@
+
+
+.privacy-policy{
+    padding: 2em 0 2em;
+}
+
+
+.privacy-policy1{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+
+.privacy-policy2{
+    margin-bottom: 2.5em;
+}
+
+.privacy-policy2 h2{
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 2.074em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+.privacy-policy2 p{
+    margin-top: 1em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.75;
+    letter-spacing: 0;
+    color: #6f7f92;
+}

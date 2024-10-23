@@ -1,0 +1,44 @@
+.termscondition {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 3.125em 1em 3.125em 1em;
+}
+
+
+
+.termscondition1 {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+    padding: 0em 1em 0em 1em;
+}
+
+
+
+.termscondition2 {
+    margin: 0em 0em 1em 0em;
+}
+
+.termscondition2 h2 {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 2.074em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+
+.termscondition2 p{
+    margin-top: 1em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.75;
+    letter-spacing: 0;
+    color: #6f7f92;
+}

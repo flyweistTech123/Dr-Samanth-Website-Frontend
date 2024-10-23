@@ -250,6 +250,9 @@
 .features3 {
     width: 100%;
     --widgets-spacing: 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
 }
 
 
@@ -276,6 +279,7 @@
 }
 
 
+
 .features5::before {
     content: "";
     background-size: cover;
@@ -292,7 +296,7 @@
 }
 
 
-.features6{
+.features6 {
     position: relative;
     display: inline-block;
     height: 6.25em;
@@ -304,7 +308,90 @@
     z-index: 1;
 }
 
+.features6 svg{
+    height: 1.5em;
+    width: 1.5em;
+    stroke: white !important;
+    stroke-width: 2px !important;
+}
 
-.features7{
-    
+
+.features7 {
+    position: relative;
+    z-index: 1;
+}
+
+
+.features7 h4 {
+    margin-bottom: .75em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: 1.44em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.features7 p {
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.66em;
+    letter-spacing: 0;
+    color: #6f7f92;
+    text-align: center;
+    word-break: break-word;
+    text-align: center;
+}
+
+
+.features8{
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.features8 span{
+    background: transparent;
+    color: #2f65b9;
+    padding: 0;
+    box-shadow: none;
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: .875em;
+    letter-spacing: .0625em;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    transition: all .45s ease-in-out;
+}
+
+
+
+.features5:hover{
+    .features6{
+        background-color: #fff;
+        color: red !important;
+    }
+    .features6 svg{
+        stroke: #2f65b9 !important;
+        stroke-width: 2px !important;
+    }
+    .features7 h4 ,p {
+        color: white;
+    }
+    .features8 span{
+        color: white;
+    }
+    background-color: #2f65b9;
+    transform: translateY(-10px);
 }
