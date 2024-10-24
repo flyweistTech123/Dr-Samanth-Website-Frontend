@@ -30,8 +30,8 @@ const Footer = () => {
                 <div className="footer-section">
                     <h4>Company</h4>
                     <ul>
-                        <li><a href="#!">About Us</a></li>
-                        <li><a href="#!">Contact Us</a></li>
+                        <li><a href="/aboutus">About Us</a></li>
+                        <li><a href="/contactus">Contact Us</a></li>
                         <li><a href="#!">Blog</a></li>
                         <li><a href="#!">Blog Detail</a></li>
                     </ul>
@@ -52,9 +52,9 @@ const Footer = () => {
                 <div className="footer-section">
                     <h4>Help</h4>
                     <ul>
-                        <li><a href="#!">Frequently Asked Questions</a></li>
-                        <li><a href="#!">Privacy Policy</a></li>
-                        <li><a href="#!">Terms & Conditions</a></li>
+                        <li><a href="/FAQ">Frequently Asked Questions</a></li>
+                        <li><a href="/privacypolicy">Privacy Policy</a></li>
+                        <li><a href="/termscondition">Terms & Conditions</a></li>
                     </ul>
                 </div>
 

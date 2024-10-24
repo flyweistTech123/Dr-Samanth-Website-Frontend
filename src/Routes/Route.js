@@ -1,5 +1,6 @@
 /** @format */
 
+import Sidebar from "../components/Sidebar/Sidebar";
 import AboutUs from "../pages/About Us/AboutUs";
 import ContactUs from "../pages/Contact-Us/ContactUs";
 import FAQ from "../pages/Frequently Asked Questions/FAQ's";
@@ -41,6 +42,11 @@ const allRoutes = [
   {
     route: "/privacypolicy",
     component: <PrivacyPolicy />,
+  },
+
+  {
+    route: "/sidebar",
+    component: <Sidebar />,
   },
 
 
