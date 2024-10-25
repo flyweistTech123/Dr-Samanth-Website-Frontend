@@ -40,7 +40,7 @@ const MyNavbar = () => {
                       <Dropdown.Item>
                         <h6>SOCIAL</h6>
                       </Dropdown.Item>
-                      <Dropdown.Item className="drop"  onClick={() => navigate('/sidebar')}>
+                      <Dropdown.Item className="drop"  onClick={() => navigate('/activity')}>
                         Activity
                       </Dropdown.Item>
                       <Dropdown.Item className="drop">

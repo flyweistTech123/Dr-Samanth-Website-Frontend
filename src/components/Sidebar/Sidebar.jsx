@@ -132,10 +132,6 @@ const Sidebar = () => {
                         </div>
 
                     </div>
-
-                    <button className="toggle-button" onClick={toggleSidebar}>
-                        {isCollapsed ? '>' : '<'}
-                    </button>
                 </div>
             </div>
         </>

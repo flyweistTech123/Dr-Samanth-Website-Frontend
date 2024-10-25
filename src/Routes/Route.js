@@ -2,6 +2,7 @@
 
 import Sidebar from "../components/Sidebar/Sidebar";
 import AboutUs from "../pages/About Us/AboutUs";
+import Activity from "../pages/Activity/Activity";
 import ContactUs from "../pages/Contact-Us/ContactUs";
 import FAQ from "../pages/Frequently Asked Questions/FAQ's";
 import Home from "../pages/Home/Home";
@@ -43,10 +44,9 @@ const allRoutes = [
     route: "/privacypolicy",
     component: <PrivacyPolicy />,
   },
-
   {
-    route: "/sidebar",
-    component: <Sidebar />,
+    route: "/activity",
+    component: <Activity />,
   },
 
 
