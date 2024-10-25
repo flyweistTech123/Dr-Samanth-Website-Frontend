@@ -3,9 +3,10 @@
 }
 
 
-.activity1{
+.activity1 {
     display: flex;
-    gap: 10px;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
 }
 
 .stories-container {
@@ -120,7 +121,9 @@
 
 
 
-.mainsection {}
+.mainsection {
+    
+}
 
 
 .mainsection1 {
@@ -624,9 +627,9 @@
 }
 
 
+.rightsidesection {
 
-
-.rightsidesection {}
+}
 
 
 
@@ -656,7 +659,7 @@
     border-bottom: .0625em solid #f1f1f1;
 }
 
-.rightsidesection2 span{
+.rightsidesection2 span {
     font-family: "Plus Jakarta Sans", serif;
     font-weight: 500;
     font-size: 1.2em !important;
@@ -668,9 +671,9 @@
     text-transform: capitalize;
 }
 
-.rightsidesection3 p{
+.rightsidesection3 p {
     font-family: "Plus Jakarta Sans", serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1em !important;
     line-height: 1.75;
     letter-spacing: 0;
@@ -678,4 +681,80 @@
     font-stretch: condensed;
     word-break: break-word;
     text-transform: capitalize;
+}
+
+.rightsidesection4 {}
+
+
+.rightsidesection4 ul {
+    padding: 0;
+    margin: 0
+}
+
+.rightsidesection4 ul li {
+    margin-bottom: 1em;
+    border-bottom: .0625em solid #f1f1f1;
+    padding-bottom: 1em;
+    display: flex;
+    /* align-items: center; */
+    grid-gap: 1em;
+    gap: 1em;
+    list-style: none;
+}
+
+
+.rightsidesection4 ul li img {
+    background: #ddeaff;
+    object-fit: cover;
+    height: 3.125em;
+    width: 3.125em;
+    min-width: 3.125em;
+    border-radius: 50% !important;
+}
+
+
+.rightsidesection6 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+
+
+.rightsidesection6 h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: .875em !important;
+    line-height: 1.7em;
+    letter-spacing: 0;
+    color: #07142e;
+    font-stretch: condensed;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+
+.rightsidesection6 span {
+    margin-left: .3em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: .875em !important;
+    line-height: 1.75;
+    letter-spacing: 0;
+    color: #6f7f92;
+}
+
+
+.rightsidesection5 span {
+    margin-left: .3em;
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 500;
+    font-size: .75em !important;
+    line-height: 1.75;
+    letter-spacing: 0;
+    color: #6f7f92;
 }
