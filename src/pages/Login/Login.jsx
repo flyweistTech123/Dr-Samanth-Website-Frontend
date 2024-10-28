@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Login.css'
 
 
-import img from '../../assest/logo-mini.svg'
+import img from '../../assest/logo.jpeg'
 
 import { TiUserAddOutline } from "react-icons/ti";
 import { MdLockOutline } from "react-icons/md";
@@ -33,10 +33,10 @@ const Login = () => {
           <div className='login3'>
             <div className='login4'>
               <img src={img} alt="" />
-              <h6>SocialV</h6>
+              {/* <h6>Psykode</h6> */}
             </div>
             <div className='login5'>
-              <p>Welcome to socialV, a platform to connect with <br/> 
+              <p>Welcome to Psykode, a platform to connect with <br/> 
               the social world</p>
             </div>
             <div className='login6'>

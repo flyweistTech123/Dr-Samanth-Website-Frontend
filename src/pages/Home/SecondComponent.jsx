@@ -7,7 +7,7 @@ const SecondComponent = () => {
         <>
             <div className='shome1'>
                 <div className='shome2'>
-                    <h3>Why Join SocialV for Social<br/> Networking</h3>
+                    <h3>Why Join Psykode for Social<br/> Networking</h3>
                     <div className='shome3'>
                         <p>It is a long established fact that a reader will be distracted by the readable<br/> content of a page when looking at its layout. The point of using Lorem Ipsum<br/> is that it has a more-or-less normal.</p>
                     </div>

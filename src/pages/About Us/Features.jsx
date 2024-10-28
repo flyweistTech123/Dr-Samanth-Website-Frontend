@@ -6,7 +6,7 @@ const Features = () => {
             <div className='features'>
                 <div className='features1'>
                     <div className='features2'>
-                        <h4>Features that socialV offers</h4>
+                        <h4>Features that Psykode offers</h4>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour  </p>
                     </div>
                 </div>

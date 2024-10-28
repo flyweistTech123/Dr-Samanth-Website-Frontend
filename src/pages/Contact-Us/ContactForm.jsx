@@ -72,7 +72,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className='contact15'>
                                     <h5>Request a quote</h5>
-                                    <p>info@iqonicdesign.com<br />work@socialV.com</p>
+                                    <p>info@iqonicdesign.com<br />work@psykode.com</p>
                                 </div>
                             </div>
                             <div className='contact16'>

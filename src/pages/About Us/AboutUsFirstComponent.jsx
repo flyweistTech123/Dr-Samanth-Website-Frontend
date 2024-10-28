@@ -14,7 +14,7 @@ const AboutUsFirstComponent = () => {
                 <div className='aboutusF1'>
                     <div className='aboutusF2'>
                         <div className='aboutusF3'>
-                            <h3>We Improve Your Experience Day by Day with socialV</h3>
+                            <h3>We Improve Your Experience Day by Day with Psykode</h3>
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly</p>
                         </div>
                         <div className='aboutusF4'>
@@ -45,7 +45,7 @@ const AboutUsFirstComponent = () => {
                         <div className='aboutusF10'>
                             <div className='aboutusF11'>
                                 <img src={img2} alt="" />
-                                <h6>5k People <br /> choose SocialV</h6>
+                                <h6>5k People <br /> choose Psykode</h6>
                             </div>
                         </div>
                         <div className='aboutusF9'>

@@ -2,7 +2,7 @@ import React from 'react';
 import { FiSearch, FiSun } from "react-icons/fi";
 import { RiShoppingBagLine } from "react-icons/ri";
 import Dropdown from 'react-multilevel-dropdown';
-import logo from '../../assest/logo-mini.svg'; // Path to your logo
+import logo from '../../assest/logo.jpeg'; // Path to your logo
 import profilePic from '../../assest/profile pic.jpg'; // Path to the profile picture
 import './Navbar.css';
 
@@ -22,7 +22,7 @@ const MyNavbar = () => {
             {/* Logo Section */}
             <div className="navbar4" onClick={() => navigate('/home')}>
               <img src={logo} alt="Logo" />
-              <h6>SocialV</h6>
+              {/* <h6>SocialV</h6> */}
             </div>
 
             {/* Links Section */}
