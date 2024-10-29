@@ -8,11 +8,13 @@ import './Navbar.css';
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
+import { IoMdLogIn } from "react-icons/io";
 
 
 
 const MyNavbar = () => {
   const navigate = useNavigate()
+  const isLoggedIn = sessionStorage.getItem('flywies');
 
   return (
     <>
@@ -20,14 +22,14 @@ const MyNavbar = () => {
         <div className='navbar2'>
           <div className="navbar3">
             {/* Logo Section */}
-            <div className="navbar4" onClick={() => navigate('/home')}>
+            <div className="navbar4" onClick={() => navigate('/')}>
               <img src={logo} alt="Logo" />
               {/* <h6>SocialV</h6> */}
             </div>
 
             {/* Links Section */}
             <div className="navbar-links">
-              <a href="/home">HOME</a>
+              <a href="/">HOME</a>
               <div className='navbar6'>
                 <Dropdown
                   title="COMMUNITY"
@@ -40,7 +42,7 @@ const MyNavbar = () => {
                       <Dropdown.Item>
                         <h6>SOCIAL</h6>
                       </Dropdown.Item>
-                      <Dropdown.Item className="drop"  onClick={() => navigate('/activity')}>
+                      <Dropdown.Item className="drop" onClick={() => navigate('/activity')}>
                         Activity
                       </Dropdown.Item>
                       <Dropdown.Item className="drop">
@@ -249,7 +251,11 @@ const MyNavbar = () => {
               <FiSearch size={22} />
               <FiSun size={22} />
               <RiShoppingBagLine size={22} />
-              <img src={profilePic} alt="Profile" className="profile-pic" />
+              {isLoggedIn ? (
+                <img src={profilePic} alt="Profile" className="profile-pic" />
+              ) : (
+                <IoMdLogIn size={22} onClick={() => navigate('/login')} />
+              )}
             </div>
           </div>
         </div>

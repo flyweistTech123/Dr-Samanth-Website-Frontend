@@ -106,6 +106,21 @@
     cursor: pointer;
 }
 
+
+.submenu{
+    list-style: none;
+    background: #f8f9fa;
+    padding: .5em 1em 1em;
+    border-radius: 0 0 .313em .313em;
+    transition: all .45s ease;
+}
+
+.submenu11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu-item span {
     font-size: .875em;
     font-weight: 600;
