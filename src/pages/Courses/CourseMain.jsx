@@ -9,7 +9,7 @@ const CourseMain = () => {
                 <div className='coursemain1'>
                     <LeftSideCourse/>
                 </div>
-                <div className='coursemain1'>
+                <div className='coursemain2'>
                     <RightSideCourse/>
                 </div>
             </div>
