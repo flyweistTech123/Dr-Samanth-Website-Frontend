@@ -24,7 +24,7 @@ const LeftSideCourse = () => {
                             <div className="course-item">
                                 <div className="course-wrap-thumbnail">
                                     <div class="course-thumbnail">
-                                        <a href="">
+                                        <a href="/courses/healthy-cooking-fundamentals">
                                             <img src="https://wordpress.iqonic.design/product/wp/socialv/wp-content/uploads/2020/11/1-500x300.jpg" loading="lazy" class="rounded" alt="Healthy Cooking Fundamentals" />
                                         </a>
                                     </div>
@@ -80,7 +80,7 @@ const LeftSideCourse = () => {
                             <div className="course-item">
                                 <div className="course-wrap-thumbnail">
                                     <div class="course-thumbnail">
-                                        <a href="https://wordpress.iqonic.design/product/wp/socialv/courses/healthy-cooking-fundamentals/">
+                                        <a href="/courses/healthy-cooking-fundamentals">
                                             <img src="	https://wordpress.iqonic.design/product/wp/socialv/wp-content/uploads/2020/11/2-500x300.jpg" loading="lazy" class="rounded" alt="Healthy Cooking Fundamentals" />
                                         </a>
                                     </div>

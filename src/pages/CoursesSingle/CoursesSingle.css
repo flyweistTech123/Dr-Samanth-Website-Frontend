@@ -1,0 +1,577 @@
+.coursesingle {
+    width: 100%;
+    scroll-margin: 30px;
+    position: relative;
+    border-top: 0;
+}
+
+.coursesingle1{
+    gap: 2em;
+    padding-bottom: 2em;
+    max-width: 84.433em !important;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
+}
+
+.topcoursesingle {
+    padding: 5em 1em 3em;
+    color: #fff;
+    background: #07142e;
+    position: relative;
+}
+
+
+.topcoursesingle::before {
+    right: 100%;
+    left: auto;
+}
+
+.topcoursesingle::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: #07142e;
+    position: absolute;
+    top: 0;
+}
+
+
+.topcoursesingle1 {
+    padding: 0 1em;
+    max-width: 84.433em !important;
+    margin: 0 auto;
+}
+
+.topcoursesingle2 {
+    width: calc(100% - 480px);
+}
+
+
+/* @media (min-width: 1024px) {
+    .topcoursesingle2 {
+        width: calc(100% - 480px);
+    }
+} */
+
+/* @media (min-width: 769px) {
+    .topcoursesingle2 {
+        width: calc(100% - 340px);
+    }
+} */
+
+
+.topcoursesingle3{
+    background: transparent !important;
+    padding: 0;
+}
+
+.topcoursesingle3 nav{
+    position: relative;
+    z-index: 2;
+    text-align: left !important;
+}
+
+.topcoursesingle3 nav ol{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: normal;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 !important;
+    min-height: auto;
+    background: transparent;
+    margin-bottom: 0;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.topcoursesingle3 nav ol li{
+    font-family: "Plus Jakarta Sans", serif;
+    text-transform: capitalize;
+    letter-spacing: .031em;
+    font-size: .9em;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    word-break: break-word;
+    margin: 0;
+    padding-left: .5em;
+}
+.topcoursesingle3 nav ol li:first-child{
+    padding-left: 0;
+}
+.topcoursesingle3 nav ol li a{
+    font-family: "Plus Jakarta Sans", serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: .031em;
+    margin: 0;
+}
+
+.topcoursesingle3 nav ol li span{
+    padding-right: .5em;
+    margin-top: 10px;
+}
+
+.topcoursesingle3 nav ol li span svg{
+    font-family: 'iconly' !important;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1rem;
+    font-variant: normal;
+    text-transform: none;
+    font-weight: normal;
+    line-height: 1;
+}
+
+
+.topcoursesingle2 h1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 24px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color:  #fff;
+    padding-bottom: 24px;
+}
+
+.topcoursesingle4{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+.topcoursesingle5{
+    font-size: 0.925em;
+    /* flex: 1; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1em;
+}
+
+.topcoursesingle6{
+    gap: .5em;
+    margin: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: unset;
+    flex: unset;
+    margin-right: 0 !important;
+    display: flex;
+    text-transform: capitalize;
+}
+
+
+.topcoursesingle7{
+    margin: 0;
+    flex: 0 0 46px;
+}
+
+.topcoursesingle7 img{
+    overflow: hidden;
+    position: relative;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+}
+
+.topcoursesingle8 label{
+    font-size: .75em;
+    color: #6f7f92;
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.5;
+    display: block;
+}
+
+.topcoursesingle9{
+    line-height: 1.5;
+    display: flex;
+}
+
+.topcoursesingle9 h6{
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: .9em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #fff;
+    font-stretch: condensed;
+    clear: both;
+    text-transform: capitalize;
+}
+
+.topcoursesingle9 svg{
+    display: inline-block;
+    background-size: .5em .5em;
+    width: 1em;
+    height: 1em;
+    margin-left: .4em;
+}
+
+
+.topcoursesingle10{
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+.topcoursesingle11{
+    display: flex;
+    position: relative;
+    margin-bottom: 0;
+    margin-left: .3em;
+}
+
+
+.topcoursesingle10 span{
+    color: #2f65b9;
+    font-size: .875em;
+    font-weight: 500;
+}
+
+
+.topcoursesingle12{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: .375em;
+    border-radius: .188em;
+    margin-top: .5em;
+}
+
+.topcoursesingle13{
+    overflow: hidden;
+    position: relative;
+    height: .375em;
+    background: #f8f9fa;
+    border-radius: .313em;
+}
+
+.topcoursesingle14{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    margin-left: -100%;
+    background: #2f65b9;
+    border-radius: .313em;
+}
+
+.topcoursesingle15{
+    position: absolute;
+    top: 0;
+    width: .188em;
+    height: .375em;
+    left: 80%;
+    margin-left: -1px;
+    background: #07142e;
+}
+
+
+/* LeftCoursesingle */
+
+
+.leftcoursesingle{
+    width: calc(100% - 480px);
+    max-width: 100%;
+    margin: 0;
+    padding: 2em 1em 0;
+    margin: 0;
+}
+
+
+.leftcoursesingle1{
+    margin-bottom: 2em;
+}
+
+
+.leftcoursesingle2{
+    background: #fff;
+    margin-bottom: 2em;
+    padding: 0 1.5em;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border-radius: .313em;
+    display: flex;
+    align-items: center;
+}
+
+
+.leftcoursesingle3{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1em 1.5em;
+    cursor: pointer;
+}
+
+.leftcoursesingle3 h6{
+    font-family: "Plus Jakarta Sans", serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    color: #07142e;
+    text-align: center;
+}
+
+.leftcoursesingle3 svg{
+    color: #07142e;
+}
+
+
+.leftcoursesingle4{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.leftcoursesingle5{
+    margin-bottom: 1em;
+    border: none;
+    border-radius: .313em;
+    width: 100%;
+}
+
+
+.leftcoursesingle5 h3{
+    background: #fff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    --extra-height: 50px;
+    margin: 0 !important;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-stretch: condensed;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+
+.leftcoursesingle5 h3 svg{
+    position: absolute;
+    right: 20px;
+    font-family: "lp-icon";
+    line-height: 50px;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.leftcoursesingle6{
+    height: 301px;
+    display: block;
+    border-radius: 0 0 10px 10px;
+    background: #fff;
+    padding: 1em;
+    overflow: hidden;
+    transition: height .3s ease;
+}
+
+
+.leftcoursesingle7{
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+}
+
+
+.leftcoursesingle7 ul{
+    padding: 0 !important;
+    min-height: auto;
+    list-style-type: revert;
+    list-style-position: inside;
+    list-style: none;
+
+}
+
+.leftcoursesingle7 ul li{
+    padding: 1em 0;
+    color: #6f7f92;
+    border-color: #f1f1f1;
+    margin: 0;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+    list-style: none;
+}
+
+.leftcoursesingle7 ul li svg{
+    margin-right: 8px;
+    color: #2f65b9;
+    font-family: "lp-icon";
+    font-size: 1em;
+    line-height: 1.75;
+}
+
+.leftcoursesingle7 ul li:last-child{
+    border-bottom: 0;
+}
+
+
+
+
+/* rightcoursesingle  */
+
+
+.rightcoursesingle{
+    width: 395px;
+    max-width: 100%;
+    margin-top: -190px;
+    z-index: 9;
+    --lp-button-background-color: #28303d;
+    --lp-button-color: #d1e4dd;
+    position: relative;
+}
+
+@media (min-width: 769px) {
+    .rightcoursesingle1{
+        position: static;
+    }
+}
+
+.rightcoursesingle1{
+    width: 395px;
+}
+
+
+.rightcoursesingle2{
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.media-preview {
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    margin: -20px -20px 10px;
+}
+
+.media-preview img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+
+.rightcoursesingle3{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    gap: 1.5em;
+    background: #eaeff8;
+    padding: 1.5em;
+    margin-bottom: 2em !important;
+}
+
+
+
+.rightcoursesingle4{
+    border: none;
+    border-left: .1875em solid #f14646;
+    background-color: #f8eaea;
+    color: #f14646;
+    position: relative;
+    margin: 24px auto !important;
+    background: #f5f5f5;
+    width: 100%;
+    padding: 1em;
+}
+
+.rightcoursesingle4 span{
+    color: #f14646;
+}
+
+
+.rightcoursesingle5{
+    margin: 0;
+    text-align: center;
+    border: none;
+    border-left: .1875em solid #09c;
+    background-color: #e3f1f6;
+    color: #09c;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 0 .313em .313em 0;
+    max-width: 84.433em !important;
+    margin: 24px auto !important;
+}
+
+
+
+.rightcoursesingle6{
+    padding: 0 2em 1em;
+}
+
+
+.rightcoursesingle6 h5{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 600;
+    color: #07142e;
+    font-size: 1.2em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+.rightcoursesingle6 ul{
+    list-style: none;
+    padding: 0 !important;
+    min-height: auto;
+    margin: 1.5em 0 0;
+}
+
+.rightcoursesingle6 ul li{
+    font-size: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 1em;
+    color: #6f7f92;
+    line-height: 1.75;
+    font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.rightcoursesingle6 ul li svg{
+    color: #2f65b9;
+    font-size: 1em;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}

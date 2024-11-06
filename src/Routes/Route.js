@@ -5,6 +5,7 @@ import AboutUs from "../pages/About Us/AboutUs";
 import Activity from "../pages/Activity/Activity";
 import ContactUs from "../pages/Contact-Us/ContactUs";
 import Courses from "../pages/Courses/Courses";
+import CoursesSingle from "../pages/CoursesSingle/CoursesSingle";
 import FAQ from "../pages/Frequently Asked Questions/FAQ's";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
@@ -52,6 +53,10 @@ const allRoutes = [
   {
     route: "/courses",
     component: <Courses />,
+  },
+  {
+    route: "/courses/healthy-cooking-fundamentals",
+    component: <CoursesSingle />,
   },
 
 
