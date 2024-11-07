@@ -1,7 +1,8 @@
 import React from 'react'
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 
-
+import img from '../../assest/left-banner.webp'
+import img1 from '../../assest/logo.jpeg'
 
 const RightSideSection = () => {
     return (
@@ -56,7 +57,13 @@ const RightSideSection = () => {
                         </ul>
                     </div>
                 </div>
+                <div className='rightsidesection7'>
+                    <div className='rightsidesection8'>
+                        <img src={img} alt="" />
+                    </div>
+                </div>
             </div >
+
         </>
     )
 }

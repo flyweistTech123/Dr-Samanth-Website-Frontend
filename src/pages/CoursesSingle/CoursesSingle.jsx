@@ -14,7 +14,7 @@ const CoursesSingle = () => {
                 <div className='coursesingle1'>
                     <div className='leftcoursesingle'>
                         <LeftCoursesingle />
-                    </div>
+                    </div>Members
                     <div className='coursesingle2'>
                         <RightCoursesingle />
                     </div>

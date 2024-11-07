@@ -1,0 +1,209 @@
+.memebers {}
+
+
+.memebers1 {
+    padding: 2em 0;
+    max-width: 84.433em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.memebers2 {
+    --bs-gutter-x: 2em;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.memebers3 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    max-width: 100%;
+    margin-top: 0;
+    margin-right: calc(2em* -.5);
+    margin-left: calc(2em* -.5);
+}
+
+
+
+.leftmembers {}
+
+
+.leftmembers1 {
+    margin-bottom: 2em;
+    background: #fff;
+    border: none;
+    border-radius: .375em;
+    box-shadow: 0 14px 54px rgba(0, 0, 0, .03);
+}
+
+
+.leftmembers2 {
+    padding: 2em;
+}
+
+
+.leftmembers3 {
+    float: inherit;
+    margin: 0;
+    width: 100%;
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input input {
+    padding-right: 3.125em;
+    padding-left: 1em;
+    font-size: 90%;
+    padding: 1px 3px;
+    border-radius: .313em;
+    background: #f8f9fa;
+    border: .0625em solid #f1f1f1;
+    color: #737373;
+    font: inherit;
+    height: 3.123em;
+    width: 100%;
+}
+
+.search-input button.btn-search {
+    padding: 0;
+    font-size: .875em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: .0625em;
+    font-weight: 600;
+    line-height: 1.75;
+    border-radius: .313em;
+    border: .063em solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    white-space: nowrap;
+    box-shadow: none;
+    transition: all .45s ease-in-out;
+    position: absolute;
+    width: 3.1em;
+    height: 100%;
+    background: #2f65b9 !important;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.leftmembers4 {
+    background: #fff;
+    border: none;
+    border-radius: .375em;
+    box-shadow: 0 14px 54px rgba(0, 0, 0, .03);
+    margin-top: 2em;
+}
+
+
+.leftmembers5 {
+    padding: 2em;
+    padding-top: 0 !important;
+}
+
+
+.leftmembers5 form {
+    clear: both;
+}
+
+.leftmembers6 {
+    margin-bottom: 2em;
+    border-radius: 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.leftmembers7 {
+    align-items: center !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(0* -.5);
+    margin-right: calc(2em* -.5);
+    margin-left: calc(2em* -.5);
+}
+
+.leftmembers8 {
+    background: 0 0;
+    clear: left;
+    overflow: hidden;
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+
+.leftmembers9 {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.leftmembers9 ul {
+    padding: 0;
+    margin: 0 !important;
+}
+
+.leftmembers9 ul li{
+    display: inline-block;
+    padding: 1.624em 0;
+    float: inherit;
+    margin-right: 3em;
+    margin: 0;
+    list-style: none;
+}
+
+.leftmembers9 ul li a {
+    color: #07142e;
+    background: transparent;
+    opacity: 1;
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 0;
+    transition: all .45s ease;
+    text-decoration: none;
+}
+
+.leftmembers9 ul li a::after {
+    transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
+    clip-path: polygon(0 0, 0 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 0 100%, 100% 100%, 100% 0);
+    position: absolute;
+    content: "";
+    width: 75%;
+    height: .04em;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    pointer-events: none;
+    transform-origin: 50% 100%;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    transition: clip-path .45s, transform .45s cubic-bezier(.2, 1, .8, 1), -webkit-clip-path .45s, -webkit-transform .45s cubic-bezier(.2, 1, .8, 1);
+}
+
+.leftmembers9 ul li span.count{
+    font-weight: 700;
+    background: #f07a3a;
+    color: #fff;
+    border-radius: .75em;
+    font-size: .625em;
+    padding: 0 .7em;
+    margin-left: .5em;
+    vertical-align: middle;
+    display: inherit;
+    text-decoration: none;
+}

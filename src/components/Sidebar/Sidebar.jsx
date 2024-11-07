@@ -71,7 +71,7 @@ const Sidebar = () => {
                                     <BiChart className='menu-icons' />
                                     {!isCollapsed && <span>Activity</span>}
                                 </li>
-                                <li className={`menu-item ${isActive('/members') ? 'active' : ''}`}>
+                                <li className={`menu-item ${isActive('/members') ? 'active' : ''}`} onClick={() => navigate('/members')}>
                                     <LuUsers2 className='menu-icons' />
                                     {!isCollapsed && <span>Members</span>}
                                 </li>

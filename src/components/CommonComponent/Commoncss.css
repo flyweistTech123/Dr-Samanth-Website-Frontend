@@ -8,7 +8,7 @@
 }
 
 
-.pageLayout2{
+.pageLayout2 {
     margin-bottom: .313em;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     gap: 5px;
 }
 
-.pageLayout2 h2{
+.pageLayout2 h2 {
     font-family: "Plus Jakarta Sans", serif;
     font-weight: 600;
     font-size: 2.074em;
@@ -30,17 +30,17 @@
 }
 
 
-.pageLayout3{
+.pageLayout3 {
     display: flex;
     align-items: center;
     gap: 0.2rem;
 }
 
-.pageLayout2 span:nth-child(1){
+.pageLayout2 span:nth-child(1) {
     cursor: pointer;
 }
 
-.pageLayout2 span{
+.pageLayout2 span {
     font-family: "Plus Jakarta Sans", serif;
     font-weight: 500;
     font-size: .875em;
@@ -51,4 +51,55 @@
     clear: both;
     word-break: break-word;
     text-transform: uppercase;
+}
+
+
+
+
+.toppartmemebers {
+    max-width: 84.433em;
+    width: 100%;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.toppartmemebers1 {
+    background: #2f65b9  url(../../assest/bp-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7.688em 2em;
+    border-radius: .375em;
+    margin-top: 2em;
+    text-align: left !important;
+}
+
+
+.toppartmemebers2{
+    
+}
+
+.toppartmemebers2 h1{
+    font-family: "Plus Jakarta Sans", serif;
+    color: #fff;
+    font-size: 2.5em;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-stretch: condensed;
+    clear: both;
+    word-break: break-word;
+    text-transform: capitalize;
+}
+
+.toppartmemebers2 p{
+    font-family: "Plus Jakarta Sans", serif;
+    color: #fff;
+    margin: 1em 0;
+    line-height: 1.66em;
+    width: 80%;
+    margin-bottom: 0 !important;
+    word-break: break-word;
 }

@@ -11,9 +11,13 @@ const Activity = () => {
     <>
       <div className='activity'>
         <Stories />
-        <div className='activity1'> 
-          <MainSection />
-          <RightSideSection />
+        <div className='activity1'>
+          <div>
+            <MainSection />
+          </div>
+          <div>
+            <RightSideSection />
+          </div>
         </div>
 
       </div>

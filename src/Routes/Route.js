@@ -9,6 +9,7 @@ import CoursesSingle from "../pages/CoursesSingle/CoursesSingle";
 import FAQ from "../pages/Frequently Asked Questions/FAQ's";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
+import Members from "../pages/Members/Members";
 import PrivacyPolicy from "../pages/Privacy Policy/PrivacyPolicy";
 import TermsCondition from "../pages/Terms & Condition/TermsCondition";
 
@@ -57,6 +58,10 @@ const allRoutes = [
   {
     route: "/courses/healthy-cooking-fundamentals",
     component: <CoursesSingle />,
+  },
+  {
+    route: "/members",
+    component: <Members />,
   },
 
 

@@ -122,7 +122,6 @@
 
 
 .mainsection {
-    
 }
 
 
@@ -628,7 +627,7 @@
 
 
 .rightsidesection {
-
+    /* border: 1px solid red; */
 }
 
 
@@ -758,3 +757,27 @@
     letter-spacing: 0;
     color: #6f7f92;
 }
+
+
+
+
+.rightsidesection7{
+    width: 100%;
+}
+
+
+
+.rightsidesection8{
+    width: 100%;
+
+}
+
+.rightsidesection8 img{
+    width: 100%;
+}
+
+
+.rightsidesection9{
+
+}
+
